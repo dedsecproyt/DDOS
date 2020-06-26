@@ -6,7 +6,7 @@ import sys
 def usage():
     
     print "\033[1;32mpython2 LITEDDOS.py " "<ip> <port> "
-    print " python2 LITEDDOS.py " "<ip> <port> "
+
 def flood(victim, vport, duration):
     # Support us yaakk... :)
     # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
